@@ -49,41 +49,12 @@ Create a web-based editor with functionality similar to [Puck Editor](https://de
 
 ```mermaid
 graph TD
-    A[Create Editor Core] --> B[Add Grids]
-    B --> C[Add Widgets]
-    C --> D[Enable Sidebar]
-    D --> E[Interchangeable Widgets and Grids]
-    E --> F[Enable Widget Drag-and-Drop]
-    F --> G[Complete Layout Management]
-    G --> H[Final Editor Deployment]
+    A[Step 1: Costruzione pagina html funzionante attraverso plugin] --> B[Step 2: Collegamento con Umbraco: nella pagina di editor posso usare il mio plugin per produrre una pagina]
+    B --> C[Step 3: Ho creato Landing page funzionante usando plugin e Umbraco]
+
+    A:::step
+    B:::step
+    C:::step
+
+    classDef step fill:,stroke:#333,stroke-width:2px;
 ```
-
-
-Getting Started 🚀
-Prerequisites
-Node.js
-A modern browser for testing
-Setup
-Clone the repository:
-bash
-Copy code
-git clone <repository-url>
-cd <repository-directory>
-Install dependencies:
-bash
-Copy code
-npm install
-Run the development server:
-bash
-Copy code
-vite dev
-Contribution Guidelines
-Open an issue before starting work on new features.
-Follow the coding style defined in the eslint configuration.
-Ensure all pull requests are well-documented.
-To Do
-Review the design for widget drag-and-drop.
-Refactor the sidebar to accommodate advanced features like inline text editing.
-Investigate accessibility improvements.
-Implement a system for saving and loading layouts.
-Feel free to update this file as the project evolves!
