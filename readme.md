@@ -56,7 +56,7 @@ graph TD
     E --> F[Enable Widget Drag-and-Drop]
     F --> G[Complete Layout Management]
     G --> H[Final Editor Deployment]
-
+```
 
 
 Getting Started 🚀
