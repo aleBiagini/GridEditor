@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editor Drag and Drop per Umbraco</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <script type="module" src="./src/components/my-preview-element.ts"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      #editor-container {
+        width: 100%;
+        padding: 2rem;
+        background-color: #fff;
+        border: 2px dashed #ccc;
+      }
+      my-preview-element {
+        width: 100%;
+        display: block;
+      }
+    </style>
+  </head>
+  <body class="bg-white">
+    <div class="container mt-5">
+      <h1>Editor</h1>
+      <div id="editor-container" class="row g-0 w-100 mt-5">
+        <my-preview-element></my-preview-element>
+      </div>
+    </div>
+  </body>
+</html>

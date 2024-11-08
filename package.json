@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "dragula": "^3.7.3",
+    "interactjs": "^1.10.27",
+    "sortablejs": "^1.15.3"
+  },
+  "devDependencies": {
+    "@types/sortablejs": "^1.15.8"
+  }
+}
