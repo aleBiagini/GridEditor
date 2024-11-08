@@ -53,9 +53,12 @@ graph TD
     B --> C[Add Widgets]
     C --> D[Enable Sidebar]
     D --> E[Interchangeable Widgets and Grids]
-    E --> F[Drag-and-Drop System]
+    E --> F[Enable Widget Drag-and-Drop]
     F --> G[Complete Layout Management]
     G --> H[Final Editor Deployment]
+
+
+
 Getting Started 🚀
 Prerequisites
 Node.js
